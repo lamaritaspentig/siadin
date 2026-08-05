@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
-  <title>LAMARITA - UPT SPF SMPN 3 Makassar</title>
+  <title>LAMARITA - UPTD SPF SMPN 3 Makassar</title>
   
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#1e40af" />
@@ -50,19 +50,10 @@
       opacity: 1;
     }
 
-    @keyframes logoPulse {
-      0%, 100% { transform: scale(1); filter: drop-shadow(0 4px 10px rgba(255,255,255,0.15)); }
-      50% { transform: scale(1.05); filter: drop-shadow(0 10px 25px rgba(255,255,255,0.4)); }
-    }
-
-    .pulsing-logo {
-      animation: logoPulse 2.5s ease-in-out infinite;
-    }
-
     /* Spinner Animasi */
     .spinner {
-      width: 40px;
-      height: 40px;
+      width: 44px;
+      height: 44px;
       border: 4px solid rgba(255, 255, 255, 0.2);
       border-top: 4px solid #ffffff;
       border-radius: 50%;
@@ -77,15 +68,14 @@
 </head>
 <body class="bg-gray-100">
 
-  <div id="loader-container" class="absolute inset-0 bg-gradient-to-br from-blue-700 via-blue-800 to-indigo-900 flex flex-col justify-content-center items-center z-50 text-white transition-all duration-700 ease-out">
+  <div id="loader-container" class="absolute inset-0 bg-gradient-to-br from-blue-700 via-blue-800 to-indigo-900 flex flex-col justify-center items-center z-50 text-white transition-all duration-700 ease-out">
     <div class="flex flex-col items-center max-w-xs text-center px-6">
       
-      <!-- Menampilkan logo spentig.ico secara elegan -->
-      <img src="spentig.ico" alt="Logo UPT SPF SMPN 3 Makassar" class="w-32 h-32 object-contain pulsing-logo mb-6" onerror="this.onerror=null; this.src='https://placehold.co/128x128/1e40af/ffffff?text=SPENTIG';">
-      
+      <!-- Spinner Pemuatan -->
       <div class="spinner mb-6"></div>
+      
       <h1 class="text-2xl font-black tracking-wider drop-shadow-md">LAMARITA</h1>
-      <p class="text-[11px] uppercase tracking-widest text-blue-200 mt-2 font-medium">UPT SPF SMPN 3 MAKASSAR</p>
+      <p class="text-[11px] uppercase tracking-widest text-blue-200 mt-2 font-medium">UPTD SPF SMPN 3 MAKASSAR</p>
       
       <!-- Tombol Pintas Jika Google Script Lambat Terbuka -->
       <div id="error-helper" class="hidden mt-8 p-4 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 animate-bounce">
